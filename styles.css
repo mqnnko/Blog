@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Firacode";
+    src: url("./fonts/FiraCode-Regular.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #121316;
+    color: white;
+    font-family: Firacode;
+}
+
+.container {
+    padding: 7.5px;
+}
+
+.title {
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.text {
+    font-size: 10px;
+}
