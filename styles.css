@@ -21,14 +21,14 @@ body {
 }
 
 .title {
-    font-size: 11px;
+    font-size: 10.5px;
     margin-bottom: 15px;
 }
 
 .texts {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 2.5px;
 }
 
 .text {
