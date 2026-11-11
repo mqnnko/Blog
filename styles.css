@@ -41,7 +41,7 @@ header {
     font-size: 10.5px;
     margin-bottom: 10px;
     padding-bottom: 7.5px;
-    border-bottom: 1.5px solid #333438;
+    background: linear-gradient(to right, #333438 calc(100% - 12.5px), transparent 0) bottom / 100% 1.5px no-repeat;
 }
 
 .texts {
