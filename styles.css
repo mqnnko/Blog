@@ -150,6 +150,17 @@ header {
     color: var(--text-secondary);
 }
 
+.mediumText a {
+    color: var(--link);
+    text-decoration: none;
+
+    transition: color var(--transition);
+}
+
+.mediumText a:hover {
+    text-decoration: underline;
+}
+
 .LargeText {
     font-size: 12.5px;
     line-height: 18px;
