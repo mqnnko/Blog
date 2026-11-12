@@ -33,12 +33,17 @@ header {
     padding-top: 15px;
 }
 
-.title {
+.headerTitle {
     font-size: 12.6px;
 }
 
+<<<<<<< HEAD
 .subtitle {
     font-size: 13px;
+=======
+.title {
+    font-size: 12.6px;
+>>>>>>> aaf7951 (Update website)
     margin-bottom: 12px;
     padding-bottom: 9px;
     background: linear-gradient(to right, #333438 calc(100% - 15px), transparent 0) bottom / 100% 1.8px no-repeat;
@@ -49,17 +54,6 @@ header {
     gap: 0;
     margin: 0;
     padding: 0;
-}
-
-.explainText {
-    font-size: 11px;
-    line-height: 18px;
-    margin: 0;
-    padding: 0;
-    font-family: "Inter", "Noto Sans JP", sans-serif;
-    font-weight: 500;
-    padding-top: 6px;
-    color: #cfcfcf;
 }
 
 .mediumText {
@@ -78,4 +72,24 @@ header {
     padding: 0;
     font-family: "Inter", "Noto Sans JP", sans-serif;
     font-weight: 500;
+}
+
+.explainText {
+    font-size: 11px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", "Noto Sans JP", sans-serif;
+    font-weight: 500;
+    padding-top: 6px;
+    color: #cfcfcf;
+}
+
+.explainText a {
+  color: #7d9cf0;
+  text-decoration: none;
+}
+
+.explainText a:hover {
+  text-decoration: underline;
 }
