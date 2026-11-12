@@ -37,13 +37,8 @@ header {
     font-size: 12.6px;
 }
 
-<<<<<<< HEAD
-.subtitle {
-    font-size: 13px;
-=======
 .title {
-    font-size: 12.6px;
->>>>>>> aaf7951 (Update website)
+    font-size: 13px;
     margin-bottom: 12px;
     padding-bottom: 9px;
     background: linear-gradient(to right, #333438 calc(100% - 15px), transparent 0) bottom / 100% 1.8px no-repeat;
