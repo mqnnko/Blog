@@ -201,3 +201,11 @@ header {
 .explainText a:hover {
     text-decoration: underline;
 }
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    margin-top: 10px;
+}
