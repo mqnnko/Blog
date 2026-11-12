@@ -102,8 +102,16 @@ header {
 
     cursor: pointer;
     transition: color var(--transition), transform 0.2s ease;
+
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
 }
 
+.themeToggle:focus,
+.themeToggle:active {
+    background: transparent;
+    outline: none;
+}
 .container {
     padding-left: 15px;
     padding-top: 15px;
