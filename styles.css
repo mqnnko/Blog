@@ -190,6 +190,7 @@ header {
 
     max-width: 500px;
     overflow-wrap: break-word;
+    padding-right: 10px;
 }
 
 .explainText a {
