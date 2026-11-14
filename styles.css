@@ -223,4 +223,5 @@ blockquote {
     color: var(--text-secondary);
     border-left: 2px solid yellow;
     font-size: 10px;
+    line-height: 14px;
 }
