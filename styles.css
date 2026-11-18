@@ -78,8 +78,8 @@ header {
 
 .section-title {
     font-size: 13px;
-    margin-bottom: 12px;
-    padding-bottom: 9px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
     background: linear-gradient(to right, var(--border) calc(100% - 15px), transparent 0) bottom / 100% 1.8px no-repeat;
 }
 
