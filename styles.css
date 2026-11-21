@@ -8,7 +8,8 @@
 :root {
     color-scheme: dark;
 
-    --background: #121316;
+    --background-1: #121316;
+        --background-2: #1d1f24;
     --text-primary: #ffffff;
     --text-secondary: #cfcfcf;
     --border: #333438;
@@ -20,7 +21,8 @@
 [data-theme="light"] {
     color-scheme: light;
 
-    --background: #ffffff;
+    --background-1: #ffffff;
+        --background-2: #c5c5c5;
     --text-primary: #171717;
     --text-secondary: #555555;
     --border: #dedee2;
@@ -130,7 +132,8 @@ header {
 
 .email {
     font-family: 'Fira Code', monospace;
-    background-color: #1d1f24;
+    background: var(--background-2);
+    color: var(--text-secondary);
     padding: 1px 5px;
     border-radius: 4px;
 }
