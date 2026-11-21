@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +8,7 @@
     color-scheme: dark;
 
     --background-1: #121316;
-        --background-2: #1d1f24;
+    --background-2: #1d1f24;
     --text-primary: #ffffff;
     --text-secondary: #cfcfcf;
     --border: #333438;
@@ -22,7 +21,7 @@
     color-scheme: light;
 
     --background-1: #ffffff;
-        --background-2: #c5c5c5;
+    --background-2: #c5c5c5;
     --text-primary: #171717;
     --text-secondary: #555555;
     --border: #dedee2;
@@ -136,6 +135,7 @@ header {
     color: var(--text-secondary);
     padding: 1px 5px;
     border-radius: 4px;
+    font-size: 12px;
 }
 
 blockquote {
